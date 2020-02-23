@@ -5,7 +5,7 @@ This repo will serve as the sample setup every time you want to create a new Git
 Navigate to [Import a Repo](https://github.com/new/import) on GitHub to create a new repository.  Use this repository as the imported repo, https://github.com/zcox10/template_ds_setup. You'll be able to give the repo a unique name and clone to your local machine.  
 
 # Using the Repo
-Once you have cloned the git repository to your local machine, add any requirement packages you want your repo to have within the `/binder/requirements.txt` file.  
+Once you have cloned the git repository to your local machine, add any requirement packages you want your repo to have within the `/binder/requirements.txt` file.  A Dockerfile will run sourced from `jupyter/datascience-notebook` and will additionally add any packages within your `requirements.txt` file.  You can read more about Jupyter Docker Stacks and `jupyter/datascience-notebook` [here](https://jupyter-docker-stacks.readthedocs.io/en/latest/).  
 
 Afterwards, push your changes to GitHub.  Finally, run this command:
 
