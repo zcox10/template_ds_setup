@@ -11,7 +11,7 @@ Afterwards, push your changes to GitHub.  Finally, run this command:
 
 `jupyter-repo2docker <source-repository>`
 
-In this case, the source-repository will be the URL of your GitHub repo. Additionally, within the git repo's root directory run the command:
+In this case, the source-repository will be the URL of your GitHub repo. We'll close out of this environment in order to make it editable with `CTRL + C`.  We'll then run this command within the git repo's root directory in order to save all the local changes we'll make:
 
 `jupyter-repo2docker --editable .`
 
