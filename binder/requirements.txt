@@ -1,1 +1,2 @@
 chartify==2.7.0
+qgrid==1.2.0
