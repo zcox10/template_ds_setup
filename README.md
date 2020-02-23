@@ -5,8 +5,14 @@ This repo will serve as the sample setup every time you want to create a new Git
 Navigate to [Import a Repo](https://github.com/new/import) on GitHub to create a new repository.  Use this repository as the imported repo, https://github.com/zcox10/template_ds_setup. You'll be able to give the repo a unique name and clone to your local machine.  
 
 # Using the Repo
-Once you have the git repository, add any requirement packages you want your repo to have within the `/binder/requirements.txt` file.  Afterwards, push your changes to GitHub.  Finally, run this command:
+Once you have the git repository, add any requirement packages you want your repo to have within the `/binder/requirements.txt` file.  
+
+Afterwards, push your changes to GitHub.  Finally, run this command:
+
 `jupyter-repo2docker <source-repository>`
+
 In this case, the source-repository will be the URL of your GitHub repo. Additionally, within the git repo's root directory run the command:
+
 `jupyter-repo2docker --editable .`
+
 This will make it so that any changes within the repo that are made are edited and stored locally.  You can then push these local changes to your remote git repo and have them stored on GitHub.  
