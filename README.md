@@ -5,7 +5,7 @@ This repo will serve as the sample setup every time you want to create a new Git
 Navigate to [Import a Repo](https://github.com/new/import) on GitHub to create a new repository.  Use this repository as the imported repo, https://github.com/zcox10/template_ds_setup. You'll be able to give the repo a unique name and clone to your local machine.  
 
 # Using the Repo
-Once you have the git repository, add any requirement packages you want your repo to have within the `/binder/requirements.txt` file.  
+Once you have cloned the git repository to your local machine, add any requirement packages you want your repo to have within the `/binder/requirements.txt` file.  
 
 Afterwards, push your changes to GitHub.  Finally, run this command:
 
